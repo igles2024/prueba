@@ -7,4 +7,4 @@ permitan manipular la base de, datos luego se realiza la creacion de servicios p
 controlador, en donde desarrollamos la logica o la funcionalidad que queremos evidenciar, en la parte de jwt se implento una clase para realiza la configuracion de seguidad, 
 luego se realiza la declaracion de una clase con la anotcion component,para qu haga las veces de un bean pasamos a realiza la creacion de 2 controladores para implementar 
 la logica de autenticacion y autorizacion, 
-por ultimo se realizo la configuracion para la carga y descarga de archivos en cvs
+por ultimo se realizo la configuracion para la carga y descarga de archivos en cvs.
