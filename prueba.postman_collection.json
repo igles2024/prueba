@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "4a03a870-b8f9-48e2-a1fa-e0b4083d28c2",
+		"name": "prueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35095067"
+	},
+	"item": [
+		{
+			"name": "guardar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"documento\":\"1022328128\",\r\n    \"nombrecompleto\":\"Carlos iglesias\",\r\n    \"email\":\"qute2929@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6070/api/clientes/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6070",
+					"path": [
+						"api",
+						"clientes",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:6070/api/clientes/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6070",
+					"path": [
+						"api",
+						"clientes",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "busqueda por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:6070/api/clientes/findById/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6070",
+					"path": [
+						"api",
+						"clientes",
+						"findById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:6070/api/clientes/findAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6070",
+					"path": [
+						"api",
+						"clientes",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actualizar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documento\": \"12345678\",\r\n    \"nombreCompleto\": \"Juan Pérez\",\r\n    \"email\": \"juan.perez@example.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6070/api/clientes/save/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6070",
+					"path": [
+						"api",
+						"clientes",
+						"save",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
