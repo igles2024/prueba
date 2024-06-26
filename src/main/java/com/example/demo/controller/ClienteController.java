@@ -13,6 +13,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+/*
+ * AQUI IMPLEMENTAMOS EL RESTCONTROLLER PARA REALIZAR LA EJECUCIONES HTTP Y PODER COMUSIMIR EL SERVICIO CREADO
+ * CON LOS METODOS DEL CRUD
+ * 
+ */
 @RestController
 @RequestMapping("/api/clientes")
 public class ClienteController {

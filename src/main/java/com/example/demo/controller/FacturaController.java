@@ -9,6 +9,13 @@ import org.springframework.web.bind.annotation.*;
 import com.example.demo.models.Factura;
 import com.example.demo.servicio.FacturaService;
 
+/*
+ * AQUI IMPLEMENTAMOS EL RESTCONTROLLER PARA REALIZAR LA EJECUCIONES HTTP Y PODER COMUSIMIR EL SERVICIO CREADO
+ * CON LOS METODOS DEL CRUD
+ * 
+ */
+
+
 @RestController
 @RequestMapping("/api/facturas")
 public class FacturaController {

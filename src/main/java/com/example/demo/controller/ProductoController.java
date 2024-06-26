@@ -1,5 +1,10 @@
 package com.example.demo.controller;
 
+/*
+ * AQUI IMPLEMENTAMOS EL RESTCONTROLLER PARA REALIZAR LA EJECUCIONES HTTP Y PODER COMUSIMIR EL SERVICIO CREADO
+ * CON LOS METODOS DEL CRUD
+ * 
+ */
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
